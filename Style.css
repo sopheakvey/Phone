@@ -1,0 +1,513 @@
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+}
+
+.contener {
+    width: 100%;
+    float: left;
+}
+
+.dorder1 {
+    background-color: red;
+    width: 96%;
+    padding: 2%;
+}
+
+.banner {
+    float: left;
+    margin-top: 1%;
+}
+
+.banner img {
+    width: 100%;
+    float: left;
+}
+
+.border2 {
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    margin-top: 11%;
+    position: relative;
+}
+
+.border2 p {
+    position: absolute;
+    text-align: center;
+    margin-top: 1.5%;
+    left: 32%;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.border3 {
+    margin-top: 1%;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    margin-bottom: 1%;
+    height: 70%;
+    width: 100%;
+
+}
+
+nav {
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: #fe5c5c;
+}
+
+.menu li a.active {
+    color: red;
+}
+
+.menu.hidden {
+    display: none;
+}
+
+.container1 {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 1%;
+    left: 10%;
+    right: 10%;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 30s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    10% {
+        transform: translateX(0);
+    }
+    20% {
+        transform: translateX(-100%);
+    }
+    30% {
+        transform: translateX(-100%);
+    }
+    40% {
+        transform: translateX(-200%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    60% {
+        transform: translateX(-300%);
+    }
+    70% {
+        transform: translateX(-300%);
+    }
+    80% {
+        transform: translateX(-400%);
+    }
+    90% {
+        transform: translateX(-400%);
+    }
+    100% {
+        transform: translateX(-400%);
+    }
+}
+
+img {
+    width: 100%;
+}
+
+.border4 {
+    background-color: rgb(163, 158, 158);
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin-top: 1%;
+    position: relative;
+}
+
+.border4 p {
+    position: absolute;
+    text-align: center;
+    margin-top: 1%;
+    left: 45%;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.border5 {
+    background-color: rgb(163, 158, 158);
+    color: white;
+    width: 81.3%;
+    height: 70px;
+    left: 10.1%;
+    text-align: center;
+    margin-top: 24.5%;
+    position: relative;
+}
+
+.border5 p {
+    position: absolute;
+    text-align: center;
+    margin-top: 1%;
+    left: 45%;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.border6 ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+    margin-left: 10%;
+}
+
+.border6 ul li {
+    width: 15%;
+    border-radius: 3%;
+    border: 2px solid rgb(240, 233, 233);
+    margin: 0.5%;
+    padding: 1%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(238, 228, 228, 0.1);
+    text-align: left;
+    float: left;
+}
+
+.border6 a {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.border6 ul li a img {
+    width: 90%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    transition: box-shadow 0.3s;
+}
+
+.border6 ul li img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 5px;
+}
+
+.border6 ul li:hover {
+    box-shadow: 0 9px 20px rgba(240, 7, 7, 0.2);
+}
+
+.product-info {
+    padding: 1%;
+    line-height: normal;
+}
+
+.product-info h3 {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product-info .price {
+    font-size: 19px;
+    font-size: large;
+    color: #0a0a0a;
+}
+
+/* .chat-button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    font-size: large;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.chat-button:hover {
+    background-color: #ff4500;
+} */
+.add-to-cart {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    width: 70%;
+    height: 10%;
+    padding: 2%;
+    margin-top: 10%;
+    cursor: pointer;
+    font-size: 1.4em;
+    border-radius: 0.4em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart :hover {
+    background-color: #0056b3;
+  }
+
+.border6 li:hover img {
+    transform: scale(1.15);
+}
+
+.border7 {
+    background-color: rgb(163, 158, 158);
+    color: white;
+    width: 81.3%;
+    height: 70px;
+    left: 10.2%;
+    text-align: center;
+    margin-top: 2%;
+    position: relative;
+}
+
+.border7 p {
+    position: absolute;
+    text-align: center;
+    margin-top: 1%;
+    left: 45%;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.menu1 {
+    position: fixed;
+    bottom: 10px;
+    left: 80%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 600px;
+    background-color: #333;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    color: white;
+    z-index: 1000;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.menu1.hidden {
+    transform: translateX(-50%) translateY(100px);
+    opacity: 0;
+}
+
+.menu1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu1 a:hover {
+    background-color: #fb0a0a;
+}
+
+.footer {
+    margin-top: 10%;
+    width: 81%;
+    margin-left: 10.2%;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 80%;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialIcons a i {
+    font-size: 2em;
+    color: #E1341E;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background: #E1341E;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.footerBottom {
+    width: 100%;
+    background: #E1341E;
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    font-family: DIN Pro;
+    color: aliceblue;
+}
+
+.designer {
+    opacity: 0.7;
+    font-family: DIN Pro;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 400;
+    margin: 0px 5px;
+}
+
+/* Responsive Styles */
+/* Default styles (for large screens) */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.border2, .border4, .border5, .border7 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Laptops & desktops */
+@media (min-width: 1024px) {
+    .menu1 {
+        width: 100%;
+        right: 10%;
+    }
+
+    .border6 ul li {
+        width: 15%;
+    }
+}
+
+/* Tablets & small desktops */
+@media (max-width: 768px) {
+    .border2 p {
+        left: 25%;
+        font-size: x-large;
+    }
+
+    .border4 p, .border5 p, .border7 p {
+        left: 35%;
+        font-size: x-large;
+    }
+
+    .border6 ul li {
+        width: 30%;
+    }
+
+    .menu1 {
+        left: 50%;
+        width: 90%;
+    }
+
+    .footer {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .socialIcons a {
+        margin-left: 0;
+    }
+}
+
+/* Mid-range screens (typical mobile) */
+@media (max-width: 600px) {
+    .border6 ul li {
+        width: 40%;
+    }
+}
+
+/* Small mobile screens */
+@media (max-width: 480px) {
+    .border2 p {
+        left: 15%;
+        font-size: large;
+    }
+
+    .border4 p, .border5 p, .border7 p {
+        left: 25%;
+        font-size: large;
+    }
+
+    .border6 ul li {
+        width: 45%;
+    }
+
+    .menu1 {
+        width: 100%;
+        left: 50%;
+    }
+
+    .footer {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .socialIcons a {
+        margin-left: 0;
+    }
+}
+
+/* Very small screens (older phones) */
+@media (max-width: 320px) {
+    .border2 p, .border4 p, .border5 p, .border7 p {
+        left: 10%;
+        font-size: medium;
+    }
+
+    .border6 ul li {
+        width: 50%;
+    }
+}

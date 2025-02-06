@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="../Stye/Description.css">
+  <link rel="stylesheet" href="../Style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="product-container">
+    <div class="product-main">
+      <div class="product-image">
+        <img src="../img/iphone_14_pro_max.jpg" alt="iPhone 14 Pro Max">
+      </div>
+      <div class="product-details">
+        <h1>iPhone 14 Pro Max</h1>
+        <p class="price">$1,099.00</p>
+        <p style="font-size:xx-large;"><strong>Brand:</strong> iPhone</p>
+        <p style="font-size:xx-large;"><strong>Model:</strong> 14 Pro Max</p>
+        <div class="quantity">
+          <label for="quantity">Quantity:</label>
+          <input type="number" id="quantity" min="1" value="1">
+        </div>
+        <a href="https://t.me/Vey_Sopheak" target="_blank">
+          <button class="add-to-cart">
+              <i class="fas fa-cart-plus"></i> Add to Cart
+          </button>
+      </a>
+      </div>
+    </div>
+
+    <div class="social-share">
+      <button><i class="fas fa-share"></i> Share</button>
+      <button><i class="fas fa-times"></i> Tweet</button>
+      <button><i class="fas fa-share-alt"></i> Share</button>
+      <button><i class="fas fa-ellipsis-h"></i></button>
+    </div>
+
+    <div class="product-description">
+      <h2>Description</h2>
+      <ul>
+        <li>CPU: A16 Bionic Chip</li>
+        <li>RAM: 6 GB</li>
+        <li>Storage: Up to 1 TB</li>
+        <li>Optical Drive: None</li>
+        <li>Graphics: Apple GPU (5-core)</li>
+        <li>Connectivity: 5G, Bluetooth 5.3, Wi-Fi 6</li>
+        <li>Camera: 48 MP Main + 12 MP Ultra-Wide + 12 MP Telephoto</li>
+        <li>Screen: 6.7" Super Retina XDR Display</li>
+        <li>Weight: 240g | Color: Multiple Options</li>
+      </ul>      
+    </div>               
+  </div>
+
+  <div class="menu1">
+    <a href="/Home.html">HOME</a>
+    <a href="../index/Iphone.html">IPHONE</a>
+    <a href="../index/samsung.html">SAMSUNG</a>
+    <a href="../index/OPPO.html">OPPO</a>
+    <a href="../index/Vivo.html">VIVO</a>
+    <a href="../index/Tecno.html">TECNO</a>
+  </div>
+
+  <script>
+    const menu = document.querySelector('.menu1');
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener('scroll', () => {
+        menu.classList.toggle('hidden', window.scrollY > lastScrollY);
+        lastScrollY = window.scrollY;
+    });
+  </script>
+</body>
+</html>

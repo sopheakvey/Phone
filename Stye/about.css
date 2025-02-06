@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #cc0000;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+section {
+    margin: 15px 0;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.contact a {
+    color: #0088CC;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}

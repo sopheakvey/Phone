@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.contact-us {
+    background-color: #f8f8f8;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-us h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Icons section */
+.contact-icons {
+    margin: 10px 0;
+}
+
+.contact-icons a {
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+/* Contact Info */
+.contact-info {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+}
